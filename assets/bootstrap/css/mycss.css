@@ -3,7 +3,8 @@ body {
   /* display: flex; */
   /* justify-content: center;
   align-items: center; */
-
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
 }
 h1,
@@ -24,6 +25,7 @@ h2 {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: -3;
 }
 
 .page-bg {
@@ -150,7 +152,7 @@ h2 {
   }
 }
 
-.text {
+.logotext {
   fill: #000;
   background: linear-gradient(90deg, #808080, #fff, #000);
   background-size: 100%;
@@ -159,7 +161,7 @@ h2 {
   -webkit-animation: animateshine 35s infinite ease, text 35s infinite;
   animation: animateshine 35s infinite ease, text 35s infinite;
 }
-@-webkit-keyframes text {
+@-webkit-keyframes logotext {
   0% {
     opacity: 0.5;
     transform: scale(1);
@@ -173,7 +175,7 @@ h2 {
     transform: scale(1);
   }
 }
-@keyframes text {
+@keyframes logotext {
   0% {
     opacity: 0.5;
     transform: scale(1.2);
@@ -185,6 +187,44 @@ h2 {
   100% {
     opacity: 0.5;
     transform: scale(1.2);
+  }
+}
+
+.text {
+  fill: #000;
+  background: linear-gradient(90deg, #808080, #fff, #000);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-animation: animateshine 35s infinite ease, text 35s infinite;
+  animation: animateshine 35s infinite ease, text 35s infinite;
+}
+@-webkit-keyframes text {
+  0% {
+    opacity: 0.5;
+    /* transform: scale(1); */
+  }
+  50% {
+    opacity: 1;
+    /* transform: scale(2); */
+  }
+  100% {
+    opacity: 0.5;
+    /* transform: scale(1); */
+  }
+}
+@keyframes text {
+  0% {
+    opacity: 0.5;
+    /* transform: scale(1.2); */
+  }
+  50% {
+    opacity: 1;
+    /* transform: scale(1.4); */
+  }
+  100% {
+    opacity: 0.5;
+    /* transform: scale(1.2); */
   }
 }
 @-webkit-keyframes animateshine {
