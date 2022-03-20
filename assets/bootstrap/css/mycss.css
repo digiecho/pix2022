@@ -37,7 +37,15 @@ h2 {
   width: 100vw;
   overflow: hidden;
 }
-
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  overflow: hidden;
+}
 .bixie {
   width: 100%;
   /* size: cover; */
