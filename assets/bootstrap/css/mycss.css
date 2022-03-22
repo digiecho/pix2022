@@ -1,5 +1,8 @@
 /* Config */
 html {
+  background-color: #fff;
+  scroll-behavior: smooth;
+  z-index: -30;
 }
 body {
   /* display: flex; */
@@ -42,11 +45,11 @@ h3 {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -3;
+  /* z-index: -3; */
 }
 
 .page-bg {
-  background: #fff;
+  /* background: #fff; */
   background-size: cover;
   /* z-index: -20; */
   content: center;
@@ -1083,7 +1086,7 @@ svg {
 .masthead {
   height: 100vh;
   width: 100vw;
-  background: rgba(0, 0, 0, 0);
+  /* background: rgba(0, 0, 0, 0); */
 }
 
 .footer {
