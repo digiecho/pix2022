@@ -1,6 +1,6 @@
 /* Config */
 html {
-  /* background-color: rgb(0, 0, 0); */
+  background-color: rgb(255, 255, 255);
 
   scroll-behavior: smooth;
   z-index: -30;
@@ -12,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0);
 }
 h1,
 h2 {
@@ -1046,6 +1047,7 @@ svg {
 .btn-my {
   border-color: #fff;
   color: #fff;
+  mix-blend-mode: difference;
 }
 
 .text-my,
